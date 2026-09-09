@@ -1,0 +1,35 @@
+{
+    "schema_version": "2",
+    "source_info": {
+        "name": "酒棉源",
+        "author": "酒棉"
+    },
+    "apps": {
+        "sample.app": {
+            "display_name": "飞牛保险柜",
+            "desc": "加密指定文件并封装成ISO",
+            "platform": [
+                "x86"
+            ],
+            "categories": [
+                "系统工具"
+            ],
+            "icon_url": "https://github.com/jiumian8/jiumianFnDepot/blob/main/ICON_256.PNG?raw=true",
+            "preview_urls": [
+                "https://github.com/jiumian8/jiumianFnDepot/blob/main/fnjm/preview/PixPin_2026-09-09_17-17-23.png?raw=true"
+            ],
+            "run_as": "root",
+            "install_type": "",
+            "is_docker": false,
+            "releases": {
+                "1.2.7": {
+                    "packages": {
+                        "all": {
+                            "download_url": "https://raw.githubusercontent.com/jiumian8/jiumianFnDepot/refs/heads/main/fnjm/fpk/vaultmanager-1.2.7.fpk"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
